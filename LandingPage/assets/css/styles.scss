@@ -1,0 +1,29 @@
+$text-color: #2e526b;
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: $text-color;
+  line-height: 1.4;
+  font-weight: 4rem;
+}
